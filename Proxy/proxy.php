@@ -6,7 +6,7 @@ interface Subject {
 }
 
 // Real Subject
-class RealSubject implements Subject {
+class RealSubject extends AbstractSubject {
     public function request() {
         echo "RealSubject: Handling request.\n";
     }
